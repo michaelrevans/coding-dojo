@@ -20,3 +20,17 @@ For collaboration on the same files, we're using VS Code's Live Share feature. O
 
 To share your session, click share. To join someone else's session, have them send you the link and click Join and enter the link.
 
+### Running tests
+
+Run
+```bash
+npm test # or npm run test
+```
+to run the tests once.
+
+Run
+```bash
+npm run test:watch
+```
+
+to run the tests in watch mode (re-running them after file save).

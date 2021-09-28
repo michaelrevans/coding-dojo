@@ -9,7 +9,8 @@
     "mocha": "^9.1.2"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test:watch": "mocha --watch"
   },
   "keywords": [],
   "author": "",
